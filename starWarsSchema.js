@@ -16,7 +16,7 @@ import {
   GraphQLSchema,
   GraphQLString,
 } from 'graphql';
-//change to './starWarsRepositoryMock.js' to use mock data source
+//change to './data/starWarsRepositoryMock.js' to use mock data source
 import { getFriends, getHero, getHuman, getDroid } from './data/starWarsRepository.js';
 
 /**
